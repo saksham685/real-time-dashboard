@@ -4,8 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // Base path for GitHub Pages deployment
-  base: mode === "production" ? "/real-time-dashboard/" : "/",
+  // Base path for Render deployment (use "/" for root)
+  base: "/",
   server: {
     host: "::",
     port: 8080,
